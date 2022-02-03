@@ -1,5 +1,5 @@
 1. enable recovery options for grub, update main configuration file and find new item in grub2 config in /boot.
-```bash
+```bash 
 nano /etc/default/grub
 GRUB_TIMEOUT=5
 GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
